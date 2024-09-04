@@ -1,0 +1,139 @@
+.container {
+  background-color: rgb(114, 114, 175);
+  height: 600px;
+  width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgb(85, 85, 183);
+}
+
+.logo {
+  height: 6em;
+  border-radius: 50%;
+  background-color: rgb(114, 114, 175);
+  box-shadow: 1px 1px 1px rgb(85, 85, 183)
+}
+
+.title {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  line-height: 1.1;
+  margin: 1rem;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.input{
+  width: 500px;
+  margin-right: 0%;
+  height: 30px;
+  border-top-left-radius:10px  ;
+  border-bottom-left-radius:10px  ;
+}
+.btn{
+  height: 35px;
+  width: 60px;
+  border-top-right-radius:10px  ;
+  border-bottom-right-radius:10px  ;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+thead th {
+  background-color: rgb(114, 114, 175);
+  padding: 10px;
+  border-bottom: 2px solid #ddd;
+  font-size: 18px;
+}
+
+tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgb(114, 114, 175);
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:first-of-type {
+  background-color: #e74c3c; 
+  color: white;
+}
+
+button:last-of-type {
+  background-color: #3498db; 
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.error{
+text-align: left;
+color: #9e190d;
+margin-left: 10px;
+}
+
+.filter{
+  margin: 10px;
+  text-align: left;
+}
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */

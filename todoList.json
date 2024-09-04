@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "task": "Learn React",
+      "completed": false
+    },
+    {
+      "id": "2",
+      "task": "Build a TodoList",
+      "completed": false
+    },
+    {
+      "id": "3",
+      "task": "Master J",
+      "completed": true
+    },
+    {
+      "id": "4",
+      "task": "Learn",
+      "completed": true
+    },
+    {
+      "id": "5",
+      "task": "Build a Tot",
+      "completed": false
+    },
+    {
+      "id": "6",
+      "task": "Master JavaScr",
+      "completed": true
+    }
+  ]
+}
